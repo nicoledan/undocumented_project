@@ -8,11 +8,14 @@
   <script src="js/highcharts.js"></script>
   <script src="js/themes/grid-light.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<div class="container col-md-6 col-md-offset-3">
 
 	<h1>Undocumented</h1>
+  <div id="beginning" class="jumbotron">
   <p id="main"> Undocumented immigrants made up 3.4% of the U.S. population in 2014, according to Pew Research Center. This game will help you understand their everyday experiences.
   You decided to come to the US for a better life. According to Pew Research, one in three Mexicans said that they would migrate to the US in 2009, due to crime, economic problems, illegal drugs, and corruption.
 </p>
@@ -21,6 +24,7 @@
   btn-block" type="button" id="continue" value="Continue">
   </div>
 
+<div id="question1" class="jumbotron">
   <p>Do you try to "wait in line" to get permission to come to the US?</p>
   <input class="btn btn-primary
     btn-block" type="button" id="yes1" value="Yes">
@@ -28,11 +32,13 @@
       btn-block" type="button" id="no1" value="No">
 </div>
 
+<div id="explanation1" class="jumbotron">
   <p>According to the American Immigration Council, there is no line. Undocumented immigrants often do not have the connections to get a visa based on employment, family reunification, or humanitarian protection.</p>
   <input class="btn btn-primary
     btn-block" type="button" id="continue2" value="Continue">
 </div>
 
+<div id="question2" class="jumbotron">
   <p>If you have children, did you bring them with you?</p>
   <input class="btn btn-primary
     btn-block" type="button" id="yes2" value="Yes">
@@ -40,32 +46,59 @@
       btn-block" type="button" id="no2" value="No">
 </div>
 
-  <p>Your children are eligible for Deferred Action for Childhood arrivals, a program that allows children who came to the US under the age of 16 before June 15, 2012 to "defer action against an individual for a certain period of time." This will also allow them to apply for work permits, but it also means registering with the government, potentially giving information that could aid in deportation. The cost of the application is $465. Do you apply?</p>
+<div id="question2a" class="jumbotron">
+  <p>Your children are eligible for Deferred Action for Childhood Arrivals (DACA), a program that allows children who came to the U.S. under the age of 16 before June 15, 2012 to "defer action against an individual for a certain period of time." This will also allow them to apply for work permits, but it  means registering with the government. The cost of the application is $465. Do you apply?</p>
   <input class="btn btn-primary
     btn-block" type="button" id="yes2a" value="Yes">
   <input class="btn btn-primary
       btn-block" type="button" id="no2a" value="No">
 </div>
 
+<div id="explanation2ayes" class="jumbotron">
   <p>Undocumented immigrants who are enrolled in DACA are able to get jobs, internships, driver's licenses, bank accounts, credit cards, and healthcare, according to the American Immigration Council Website. However, it does have to be renewed every two years, which will cost $465.</p>
   <input class="btn btn-primary
+    btn-block" type="button" id="continue2ayes" value="Continue">
+</div>
 
+
+<div id="explanation2ano" class="jumbotron">
+  <p>Undocumented immigrants who are not enrolled in DACA will not be able to get certain jobs, internships, driver's licenses, bank accounts, credit cards, and healthcare, according to the American Immigration Council Website. </p>
+  <input class="btn btn-primary
+    btn-block" type="button" id="continue2ano" value="Continue">
+</div>
+
+
+<div id="question2b" class="jumbotron">
+  <p>Your child's enrollment in DACA is about to expire as a president who opposes DACA is elected. What do you do?</p>
+  <input class="btn btn-primary
+    btn-block" type="button" id="renew" value="Renew">
+  <input class="btn btn-primary
+      btn-block" type="button" id="lapse" value="Let it lapse">
+</div>
+
+<div id="explanation2b" class="jumbotron">
+  <p>According to the National Immigration Law Center, any renewals that are sent in now may not be approved until after Donald Trump is officially president. There is a lot of uncertainty about what could happen: all DACA recipients could have their DACA revoked or they might be allowed to keep it until it expires. DACA recipients would not necessarily be at a higher risk of being deported if the program is terminated. </p>
+  <input class="btn btn-primary
+    btn-block" type="button" id="continue2b" value="Continue">
 </div>
 
 
 
-  <p>Undocumented immigrants cannot buy health insurance under the affordable care act, according to HealthCare.gov. You get sick. If you go to the doctor, you will have to pay the full cost and might have to show documentation. What do you do?</p>
+<div id="question3" class="jumbotron">
+  <p>Undocumented immigrants cannot buy health insurance under the Affordable Care Act, according to HealthCare.gov. You get sick. If you go to the doctor, you will have to pay the full cost and might have to show documentation. What do you do?</p>
   <input class="btn btn-primary
     btn-block" type="button" id="yes3" value="Go to the doctor">
   <input class="btn btn-primary
       btn-block" type="button" id="no3" value="Postpone going to the doctor">
 </div>
 
+<div id="explanation3" class="jumbotron">
   <p>According to the study "Undocumented Immigrants and Health Care Reform", Latino immigrants tend to have a better health status than people who are born in the US, however when they arrive they may have to deal with other factors that that take away their health advantages, including fears of deportation (Berk and Schur 2001; Hacker et al. 2011). Any conditions that undocumented immigrants do have "may be allowed to progress without detection or treatment due ot significant barriers to health care access (Achkar et al. 2008; Coritsidis et al. 2004; Dang, Giordano and Kim 2012)."</p>
   <input class="btn btn-primary
     btn-block" type="button" id="continue3" value="Continue">
 </div>
 
+<div id="question4" class="jumbotron">
   <p> You get into a car accident. What do you do?</p>
   <input class="btn btn-primary
     btn-block" type="button" id="option1" value="Be honest with the other driver, and ask them not to report to insurance">
@@ -73,16 +106,37 @@
       btn-block" type="button" id="option2" value="Drive away">
 </div>
 
-  <h2>How long have undocumented immigrants been in the US?</h2>
-  <div id="graph">
-  </div>
+<div id="explanation4" class="jumbotron">
+  <p>Unless you live in one of 12 states that allows undocumented immigrants to have a driver's license, not having one could potentially put you at risk for deportation. According to procon.org, undocumented immigrants are able to get drivers' licenses in California, Colorado, Connecticut, Delaware, District of Columbia, Hawaii, Illinois, Maryland, Nevada, New Mexico, Utah, Vermont, and Washington.
+  <input class="btn btn-primary
+    btn-block" type="button" id="continue4" value="Continue"></p>
 </div>
 
-
-
+<div id="end">
+  <p>As you can tell, being an undocumented immigrant can mean making difficult choices. Click on the headings below to learn more.<p>
+  <h3 id="years">How long have undocumented immigrants been in the US?</h3>
+  <div id="graph">
+  </div>
+  <h3 id=sources>Sources</h3>
+  <div id="sourcelinks">
+  <p><a href="http://www.pewresearch.org/fact-tank/2016/11/03/5-facts-about-illegal-immigration-in-the-u-s/">Pew Research - 5 Facts About Illegal Immigration in the US</a></p>
+  <p><a href="https://www.uscis.gov/humanitarian/consideration-deferred-action-childhood-arrivals-daca">U.S. Citizenship and Immigration Services - Consideration of Deferred Action for Childhood Arrivals (DACA)</a></p>
+  <p><a href="https://www.americanimmigrationcouncil.org/research/two-years-and-counting-assessing-growing-power-daca">American Immigration Council - Two Years and Counting: Assessing the Growing Power of DACA</a></p>
+  <p><a href="https://www.healthcare.gov/immigrants/coverage/">Healthcare.gov - Health Coverage for Immigrants</a></p>
+  <p><a href="http://healthpolicy.ucla.edu/publications/Documents/PDF/undocumentedreport-aug2013.pdf">UCLA Center for Health Policy Research - Undocumented Immigrants and Healthcare Reform</a></p>
+  <p><a href="http://immigration.procon.org/view.resource.php?resourceID=005535
+">ProCon.org - 12 States (and DC) That Allow Driver's Licenses for People in the Country Illegally</a></p>
+  <p><a href="https://www.nilc.org/issues/daca/daca-after-trump-q-and-a/">National Immigration Law Center - New Questions and Answers About DACA Now That Trump Is President-Elect</a></p>
+  <p><a href="http://www.migrationpolicy.org/data/unauthorized-immigrant-population/state/US">Migration Policy Institute - Print
+Profile of the Unauthorized Population:
+United States</a></p>
+</div>
+</div>
+<footer>Project by <a href="https://github.com/nicoledan/undocumented_project">Nicole Dan</a>.</footer>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/undocumentedscript.js"></script>
+<script src="js/unauthorizedyearsbarchart.js"></script>
 </body>
 </html>

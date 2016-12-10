@@ -13,7 +13,6 @@ $(document).ready(function(){
   $("#explanation4").hide();
   $("#question2b").hide();
   $("#end").hide();
-  $(".hideMe").hide();
 };
 
 
@@ -50,17 +49,17 @@ $("#yes2").click(function(){
 $("#no2").click(function(){
   $("#question2").hide();
   $("#question3").show();
-})
+});
 
 $("#yes2a").click(function(){
   $("#question2a").hide();
   $("#explanation2ayes").show();
-})
+});
 
 $("#no2a").click(function(){
   $("#question2a").hide();
   $("#explanation2ano").show();
-})
+});
 
 $("#continue2ayes").click(function(){
     $("#explanation2ayes").hide();
@@ -80,8 +79,7 @@ $("#lapse").click(function(){
 $("#continue2b").click(function(){
   $("#explanation2b").hide();
   $("#question3").show();
-})
-
+});
 
 $("#continue2ano").click(function(){
     $("#explanation2ano").hide();
@@ -112,11 +110,21 @@ $("#option1").click(function(){
 $("#option2").click(function(){
   $("#question4").hide();
   $("#explanation4").show();
-})
+});
 
 $("#continue4").click(function(){
   $("#end").show();
   $("#explanation4").hide();
+  $("#graph").hide();
+  $("#sourcelinks").hide();
+});
+
+$("#years").click(function(){
+  $("#graph").slideToggle();
+});
+
+$("#sources").click(function() {
+  $("#sourcelinks").slideToggle();
 });
 
 })

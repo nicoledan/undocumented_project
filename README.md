@@ -33,7 +33,7 @@ if yes, 2a
 
 Explanation after choice: Undocumented immigrants who are enrolled in DACA are able to get jobs, internships, driver's licenses, bank accounts, credit cards, and healthcare, according to the American Immigration Council Website. However, it does have to be renewed every two years, which will cost $465.
 
-2b.  Your child's DACA is about to expire as a president who opposes DACA is elected. He could deport anyone who has DACA, since they have given their information in order to apply. Do you renew your child's DACA?
+2b.  Your child's DACA is about to expire as a president who opposes DACA is elected. There is uncertainty about what will happen to people who have DACA protections already. Do you renew your child's DACA?
 
 
 
@@ -67,3 +67,25 @@ https://www.healthcare.gov/immigrants/coverage/
 https://www.americanimmigrationcouncil.org/research/why-don%E2%80%99t-they-just-get-line
 http://healthpolicy.ucla.edu/publications/Documents/PDF/undocumentedreport-aug2013.pdf
 http://immigration.procon.org/view.resource.php?resourceID=005535
+
+
+Week 3:
+* add in 2a and 2b
+* how to fix buttons on desktop using columns
+* create a brief plan to fix problems
+* add in highcharts
+
+Added questions 2a(different explanations for yes and no) and 2b
+Now there are three different paths: without children, with children, and with children who have DACA
+
+2b.  Your child's DACA is about to expire as a president who opposes DACA is elected. There is uncertainty about what will happen to people who have DACA protections already. Do you renew your child's DACA?
+Research for this question: https://www.nilc.org/issues/daca/daca-after-trump-q-and-a/
+
+highcharts graph source: http://www.migrationpolicy.org/data/unauthorized-immigrant-population/state/US
+I am using a bar chart because the data does not add up to 100%
+
+plan to fix problems:
+* add more information about resources people can go to for more information
+* include more graphs with data on the questions asked
+* include breadcrumbs, or a progress bar
+* link back to homepage once created
