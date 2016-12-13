@@ -1,5 +1,5 @@
-Undocumented Project
-Week 1:
+# Undocumented Project
+## Week 1:
 * complete all game ideas in outline format
   + Research
 * make explicit what will happen on each screen or each step
@@ -69,7 +69,7 @@ http://healthpolicy.ucla.edu/publications/Documents/PDF/undocumentedreport-aug20
 http://immigration.procon.org/view.resource.php?resourceID=005535
 
 
-Week 3:
+## Week 3:
 * add in 2a and 2b
 * how to fix buttons on desktop using columns
 * create a brief plan to fix problems
@@ -89,3 +89,6 @@ plan to fix problems:
 * include more graphs with data on the questions asked
 * include breadcrumbs, or a progress bar
 * link back to homepage once created
+
+## Final summary of my Project
+I enjoyed working on this project because it allowed me to create something from scratch while using the skills I've learned in this course. This is definitely something I will try to polish to include as part of my portfolio. I think the most challenging part of this project was keeping things consistent between the Javascript and the HTML files. Because I used bootstrap, I only had to slightly alter the CSS. Since the game was inspired by Spent, I tried to include consequences, but because this issue is more complex it was difficult to come up with consequences that people who aren't undocumented would relate to. Overall I think that I managed to create an informative quiz, that would allow a player to find out more about the issue if they wanted to.

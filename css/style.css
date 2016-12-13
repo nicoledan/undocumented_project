@@ -1,5 +1,18 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
 #graph {
-  width: 800px;
-  height: 400px;
+  max-width: 800px;
+  max-height: 400px;
   margin: auto;
+}
+
+
+@media (max-width: 500px) {
+  #option1 {
+    white-space: normal;
+  }
 }

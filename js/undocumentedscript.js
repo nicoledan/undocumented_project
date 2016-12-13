@@ -13,11 +13,16 @@ $(document).ready(function(){
   $("#explanation4").hide();
   $("#question2b").hide();
   $("#end").hide();
+  $("#sourcelist1").hide();
 };
 
 
 
 hideAll ();
+
+$("#sources1").click(function(){
+  $("#sourcelist1").slideToggle();
+});
 
 $("#continue").click(function(){
   $("#beginning").hide();
